@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>navbar</title>
+        <style>
+            /* Header */
+            .header {
+            position: relative;
+            width: 100%;
+            min-height: 10%;
+            background-color: var(--grey-alt);
+            overflow: hidden;
+            }
+
+            .nav {
+            padding: 1.6rem 0;
+            }
+
+            .nav.fix-nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #243a6f;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            z-index: 999;
+            }
+
+            .nav.fix-nav .nav-link,
+            .nav.fix-nav .logo,
+            .nav.fix-nav .cart-icon,
+            .nav.fix-nav .hamburger {
+            color: #fff;
+            }
+
+            .navigation {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            }
+
+            .logo h1 {
+            font-size: 2.rem;
+            padding-left: 1%;
+            padding-right: 1%;
+            float: left;
+            margin-left: 5%;
+            }
+
+            .nav-list {
+            display: flex;
+            align-items: center;
+            }
+
+            .nav-item:not(:last-child) {
+            margin-right: 0.5rem;
+            }
+
+            .nav-link:link,
+            .nav-link:visited {
+            padding: 0.8rem 1rem;
+            transition: all 300ms ease-in-out;
+            }
+
+            .nav-link.icon {
+            font-size: 3rem;
+            
+            }
+
+            .top-nav {
+            display: none;
+            }
+            .menu{
+            padding-left: 1%;
+            padding-right: 1%;
+            float: left;
+            margin-left: 5%;
+            }
+            ul{
+                list-style: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+        <header id="home" class="header">
+            <!-- Navigation -->
+            <nav class="nav">
+                <div class="navigation container">
+                    <div class="logo" >
+                        <h1>GenZ Electronics</h1>
+                    </div>
+
+                    <div class="menu">
+                        <div class="top-nav">
+                            <div class="logo">
+                                <h1>GenZ Electronics</h1>
+                            </div>
+                            <div class="close">
+                                <i class="bx bx-x"></i>
+                            </div>
+                        </div>
+
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="" class="nav-link scroll-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Categories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="login.html" class="nav-link scroll-link">Log In</a>
+                            </li>
+                            
+                        
+                            
+                            <li class="nav-item" style="color: white;">
+                                <a href="cart.html"  class="cart" class="nav-link icon"><i class="bx bx-shopping-bag"></i><span>0</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="cart.html" class="cart-icon">
+                        <i class="bx bx-shopping-bag"></i>
+                    </a>
+
+                    <div class="hamburger">
+                        <i class="bx bx-menu"></i>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Hero -->
+            <!-- <img src="istockphoto-941481114-612x612-removebg-preview.jpg" alt="" class="hero-img" />
+
+            <div class="hero-content">
+                <h2><span class="discount">20% </span> SALE OFF</h2>
+                <h1>
+                    <span>Stay Safe</span>
+                    <span>Stay@Home</span>
+                </h1>
+                <a class="btn" href="product1.html">shop now</a>
+            </div> -->
+        </header>
+        <main>
+            
+        </main>
+    </body>
+</html>
